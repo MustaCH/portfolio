@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ignacio Poletti - Web Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img class="w-25" src="./assets/img/foto cv.png" alt="" />
+            <span class="text-white fw-bolder fs-1">Ignacio Poletti</span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 text-end">
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-1" href="#about"
+                  >Sobre mí</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-1" href="#"
+                  >Tecnologías</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-1" href="#proy"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-1" href="#edu"
+                  >Educación</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold fs-1" href="#contact"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="inicio" class="overflow-hidden">
+      <h1 class="display-1 fw-bolder ps-3 mb-0">Ignacio<br />Poletti.</h1>
+      <h3 class="fw-light fs-5 text-warning ps-3 mb-0">
+        Frontend<br />Developer
+      </h3>
+      <div
+        id="header-img-container"
+        class="d-flex justify-content-end position-relative"
+      >
+        <img
+          id="headerImg"
+          class="rounded-circle w-75"
+          src="./assets/img/foto cv.png"
+          alt="IgnacioPoletti"
+        />
+      </div>
+      <div class="wave-header-bottom">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!--Sobre mi-->
+    <section id="about">
+      <div id="about-content">
+        <h2 class="fw-bolder display-3 text-end pe-4">Quien soy?</h2>
+        <p class="mb-0 p-3">
+          Soy un desarrollador web y de aplicaciones apasionado de mi trabajo.
+          Pasé los ultimos 4 años de mi vida aprendiendo y practicando todo lo
+          que sé sobre programación y los ultimos dos años trabajando como
+          programador freelance para varios clientes y actualmente colaborando
+          con una empresa de productos digitales.
+        </p>
+      </div>
+    </section>
+    <!--Tecnologías-->
+    <section id="tecno">
+      <div class="wave-tecno-top">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div id="tecno-title-container" class="pt-5">
+        <h2 class="text-center fs-1 fw-bolder pt-5">Tecnologías que domino</h2>
+      </div>
+      <div id="tecno-content">
+        <div
+          id="tecno-row-1"
+          class="d-flex flex-row align-items-center justify-content-evenly pt-3"
+        >
+          <div id="html" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/html-logo.png"
+              alt="html"
+            />
+            <p class="pt-1 mb-0">HTML</p>
+          </div>
+          <div id="css" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/css-logo.png"
+              alt="css"
+            />
+            <p class="pt-1 mb-0">CSS</p>
+          </div>
+          <div id="js" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/js-logo.png"
+              alt="javascript"
+            />
+            <p class="pt-1 mb-0">JavaScript</p>
+          </div>
+          <div id="re-js" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/reactjs-logo.png"
+              alt="reactJs"
+            />
+            <p class="pt-1 mb-0">ReactJs</p>
+          </div>
+          <div id="re-na" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/reactnat-logo.png"
+              alt="reactNative"
+            />
+            <p class="pt-1 mb-0">ReactNative</p>
+          </div>
+        </div>
+        <div
+          id="tecno-row-2"
+          class="d-flex flex-row align-items-center justify-content-evenly pt-3 ps-4 pe-4 pb-5"
+        >
+          <div id="node" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/node-logo.png"
+              alt="nodeJS"
+            />
+            <p class="pt-1 mb-0">NodeJS</p>
+          </div>
+          <div id="boots" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/boots-logo.png"
+              alt="Bootstrap"
+            />
+            <p class="pt-1 mb-0">Bootstrap</p>
+          </div>
+          <div id="sass" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/sass-logo.png"
+              alt="SASS"
+            />
+            <p class="pt-1 mb-0">SASS</p>
+          </div>
+          <div id="tailwind" class="d-flex flex-column align-items-center">
+            <img
+              class="w-50"
+              src="./assets/img/tecnos/tailwind-logo.png"
+              alt="tailwind"
+            />
+            <p class="pt-1 mb-0">Tailwind CSS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Proyectos-->
+    <section id="proy">
+      <h2 class="fw-bolder text-center text-uppercase">Proyectos</h2>
+      <section id="proy-content">
+        <div class="wave-proy-top">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="pt-5">
+          <div class="pt-5">
+            <h3>Proyecto 1</h3>
+            <img src="" alt="Proy1" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aut, quo atque, quisquam dolores molestias obcaecati voluptas
+              dignissimos mollitia, placeat optio hic tenetur nostrum maxime?
+              Vel unde id temporibus tempora.
+            </p>
+          </div>
+          <div>
+            <h3>Proyecto 2</h3>
+            <img src="" alt="Proy2" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aut, quo atque, quisquam dolores molestias obcaecati voluptas
+              dignissimos mollitia, placeat optio hic tenetur nostrum maxime?
+              Vel unde id temporibus tempora.
+            </p>
+          </div>
+          <div>
+            <h3>Proyecto 3</h3>
+            <img src="" alt="Proy3" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aut, quo atque, quisquam dolores molestias obcaecati voluptas
+              dignissimos mollitia, placeat optio hic tenetur nostrum maxime?
+              Vel unde id temporibus tempora.
+            </p>
+          </div>
+          <div>
+            <h3>Proyecto 4</h3>
+            <img src="" alt="Proy4" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aut, quo atque, quisquam dolores molestias obcaecati voluptas
+              dignissimos mollitia, placeat optio hic tenetur nostrum maxime?
+              Vel unde id temporibus tempora.
+            </p>
+          </div>
+          <div>
+            <h3>Proyecto 5</h3>
+            <img src="" alt="Proy5" />
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              aut, quo atque, quisquam dolores molestias obcaecati voluptas
+              dignissimos mollitia, placeat optio hic tenetur nostrum maxime?
+              Vel unde id temporibus tempora.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Educación-->
+    <section id="edu">
+      <div class="wave-edu-top">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="pt-5 pe-5 pb-5">
+        <h2 class="text-start display-4 fw-bolder pt-5 ps-3">Educación</h2>
+        <p class="text-start ps-3">
+          La mayoría de mis conocimientos los he obtenido aprendiendo de forma
+          autodidacta y los he solidificado gracias a <a>CoderHouse</a>. Aquí
+          puedes ver mis certificados:
+        </p>
+      </div>
+        <div class="d-flex flex-column align-items-center">
+          <img
+            class="w-100 pb-3 pe-4 ps-4"
+            src="./assets/img/titulos/titulo-carrera.png"
+            alt="CarreraApps"
+          />
+          <img
+            class="w-75 pb-3"
+            src="./assets/img/titulos/certificado-react.png"
+            alt="CursoReact"
+          />
+          <img
+            class="w-75 pb-3"
+            src="./assets/img/titulos/cerificado-js.png"
+            alt="CursoJS"
+          />
+          <img
+            class="w-75 pb-3"
+            src="./assets/img/titulos/certificado-web.png"
+            alt="CursoWeb"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Contacto-->
+    <section id="contact"></section>
+    <!--Footer-->
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

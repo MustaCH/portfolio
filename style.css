@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #24211b;
+  color: white;
+  font-family: "inter", sans-serif;
+}
+
+section {
+  position: relative;
+}
+
+#about,
+#proy-content {
+  background-color: #e9b121;
+}
+
+/*NAVBAR*/
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28233, 177, 33, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.offcanvas {
+  background: rgb(255, 201, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 201, 0, 1) 27%,
+    rgba(201, 144, 62, 1) 92%
+  );
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+}
+
+/*HEADER*/
+
+#header-img-container {
+  padding: 30% 0% 30% 0%;
+}
+
+#headerImg {
+  position: absolute;
+  top: -15%;
+  left: 32%;
+  z-index: 1;
+}
+
+/*ABOUT*/
+
+#about {
+  z-index: 2;
+}
+
+#about-content {
+  background-color: #e9b121;
+  z-index: 3;
+}
+
+/*TECNO*/
+
+#tecno-row-1,
+#tecno-row-2 {
+  font-size: 0.7rem;
+}
+
+/*WAVES*/
+
+/*Header*/
+
+.wave-header-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 2;
+}
+
+.wave-header-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 63px;
+}
+
+.wave-header-bottom .shape-fill {
+  fill: #e9b121;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-header-bottom svg {
+    width: calc(106% + 1.3px);
+    height: 93px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wave-header-bottom svg {
+    width: calc(110% + 1.3px);
+    height: 180px;
+  }
+}
+
+/*Tecnologías*/
+
+.wave-tecno-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-tecno-top svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 63px;
+}
+
+.wave-tecno-top .shape-fill {
+  fill: #e9b121;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-tecno-top svg {
+    width: calc(106% + 1.3px);
+    height: 93px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wave-tecno-top svg {
+    width: calc(162% + 1.3px);
+    height: 40px;
+  }
+}
+
+/*Proyectos*/
+
+.wave-proy-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-proy-top svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 63px;
+}
+
+.wave-proy-top .shape-fill {
+  fill: #24211b;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-proy-top svg {
+    width: calc(106% + 1.3px);
+    height: 93px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wave-proy-top svg {
+    width: calc(138% + 1.3px);
+    height: 69px;
+  }
+}
+
+/*Educacion*/
+
+.wave-edu-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-edu-top svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 63px;
+}
+
+.wave-edu-top .shape-fill {
+  fill: #e9b121;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-edu-top svg {
+    width: calc(106% + 1.3px);
+    height: 93px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wave-edu-top svg {
+    width: calc(169% + 1.3px);
+    height: 39px;
+  }
+}
