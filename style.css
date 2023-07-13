@@ -11,8 +11,14 @@ section {
 }
 
 #about,
-#proy-content {
-  background-color: #e9b121;
+#proy-content,
+#contact {
+  background: rgb(255, 201, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 201, 0, 1) 27%,
+    rgba(201, 144, 62, 1) 92%
+  );
 }
 
 /*NAVBAR*/
@@ -188,9 +194,9 @@ section {
 
 /*Educacion*/
 
-.wave-edu-top {
+.custom-shape-divider-bottom-1689280775 {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -198,27 +204,104 @@ section {
   transform: rotate(180deg);
 }
 
-.wave-edu-top svg {
+.custom-shape-divider-bottom-1689280775 svg {
   position: relative;
   display: block;
   width: calc(105% + 1.3px);
   height: 63px;
 }
 
-.wave-edu-top .shape-fill {
-  fill: #e9b121;
+.custom-shape-divider-bottom-1689280775 .shape-fill {
+  fill: #24211b;
 }
 
+/** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-  .wave-edu-top svg {
+  .custom-shape-divider-bottom-1689280775 svg {
     width: calc(106% + 1.3px);
     height: 93px;
   }
 }
 
+/** For mobile devices **/
 @media (max-width: 767px) {
-  .wave-edu-top svg {
-    width: calc(169% + 1.3px);
-    height: 39px;
+  .custom-shape-divider-bottom-1689280775 svg {
+    width: calc(146% + 1.3px);
+    height: 85px;
+  }
+}
+
+/*Contacto*/
+
+.wave-contact-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-contact-top svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 63px;
+}
+
+.wave-contact-top .shape-fill {
+  fill: #24211b;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-contact-top svg {
+    width: calc(106% + 1.3px);
+    height: 93px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .wave-contact-top svg {
+    width: calc(121% + 1.3px);
+    height: 99px;
+  }
+}
+
+.wave-contact-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-contact-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 63px;
+}
+
+.wave-contact-bottom .shape-fill {
+  fill: #24211b;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-contact-bottom svg {
+    width: calc(106% + 1.3px);
+    height: 93px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .wave-contact-bottom svg {
+    width: calc(182% + 1.3px);
+    height: 89px;
   }
 }
