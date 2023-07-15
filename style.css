@@ -68,7 +68,12 @@ section {
 }
 
 #about-content {
-  background-color: #e9b121;
+  background: rgb(233, 177, 33);
+  background: linear-gradient(
+    176deg,
+    rgba(233, 177, 33, 1) 52%,
+    rgba(193, 138, 60, 1) 99%
+  );
   z-index: 3;
 }
 
@@ -118,11 +123,11 @@ section {
   }
 }
 
-/*Tecnologías*/
+/*About*/
 
-.wave-tecno-top {
+.wave-about-bottom {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -130,28 +135,28 @@ section {
   transform: rotate(180deg);
 }
 
-.wave-tecno-top svg {
+.wave-about-bottom svg {
   position: relative;
   display: block;
   width: calc(105% + 1.3px);
   height: 63px;
 }
 
-.wave-tecno-top .shape-fill {
-  fill: #e9b121;
+.wave-about-bottom .shape-fill {
+  fill: #24211b;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .wave-tecno-top svg {
+  .wave-about-bottom svg {
     width: calc(106% + 1.3px);
     height: 93px;
   }
 }
 
 @media (max-width: 767px) {
-  .wave-tecno-top svg {
-    width: calc(162% + 1.3px);
-    height: 40px;
+  .wave-about-bottom svg {
+    width: calc(121% + 1.3px);
+    height: 47px;
   }
 }
 
@@ -192,9 +197,9 @@ section {
   }
 }
 
-/*Educacion*/
+/*Proyectos*/
 
-.custom-shape-divider-bottom-1689280775 {
+.wave-proy-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -204,28 +209,26 @@ section {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1689280775 svg {
+.wave-proy-bottom svg {
   position: relative;
   display: block;
   width: calc(105% + 1.3px);
   height: 63px;
 }
 
-.custom-shape-divider-bottom-1689280775 .shape-fill {
+.wave-proy-bottom .shape-fill {
   fill: #24211b;
 }
 
-/** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-  .custom-shape-divider-bottom-1689280775 svg {
+  .wave-proy-bottom svg {
     width: calc(106% + 1.3px);
     height: 93px;
   }
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
-  .custom-shape-divider-bottom-1689280775 svg {
+  .wave-proy-bottom svg {
     width: calc(146% + 1.3px);
     height: 85px;
   }
@@ -253,7 +256,6 @@ section {
   fill: #24211b;
 }
 
-/** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
   .wave-contact-top svg {
     width: calc(106% + 1.3px);
@@ -261,7 +263,6 @@ section {
   }
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
   .wave-contact-top svg {
     width: calc(121% + 1.3px);
@@ -290,7 +291,6 @@ section {
   fill: #24211b;
 }
 
-/** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
   .wave-contact-bottom svg {
     width: calc(106% + 1.3px);
@@ -298,7 +298,6 @@ section {
   }
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
   .wave-contact-bottom svg {
     width: calc(182% + 1.3px);
