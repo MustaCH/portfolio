@@ -19,66 +19,25 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-transparent">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <img class="w-25" src="./assets/img/foto cv.png" alt="" />
-            <span class="text-white fw-bolder fs-1">Ignacio Poletti</span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 text-end">
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold fs-1" href="#about"
-                  >Sobre mí</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold fs-1" href="#"
-                  >Tecnologías</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold fs-1" href="#proy"
-                  >Proyectos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold fs-1" href="#edu"
-                  >Educación</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fw-bold fs-1" href="#contact"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div class="d-flex flex-row ps-4 mt-4 pb-5 justify-content-evenly w-25">
+      <div class="form-check">
+        <input
+          class="form-check-input display-6"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault1"
+        />
       </div>
-    </nav>
+      <div class="form-check">
+        <input
+          class="form-check-input display-6"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault2"
+          checked
+        />
+      </div>
+    </div>
     <section id="inicio" class="overflow-hidden">
       <h1 class="display-1 fw-bolder ps-3 mb-0">Ignacio<br />Poletti.</h1>
       <h3 class="fw-light fs-5 text-warning ps-3 mb-0">
@@ -661,33 +620,41 @@
         <h2 class="display-4 fw-bold mb-0 mt-5">Contactame!</h2>
         <p class="fs-4 fw-light">Trabajemos juntos</p>
       </div>
-      <div class="mb-3 pe-5 ps-5">
-        <input
-          type="email"
-          class="form-control rounded"
-          id="EmailFormControl"
-          placeholder="Email"
-        />
-      </div>
-      <div class="mb-3 pe-5 ps-5">
-        <input
-          type="text"
-          class="form-control rounded"
-          id="AsuntoFormControl"
-          placeholder="Asunto"
-        />
-      </div>
-      <div class="mb-3 pe-5 ps-5">
-        <textarea
-          class="form-control rounded"
-          id="TextareaFormControl"
-          rows="5"
-          placeholder="Cuentame que deseas que hagamos..."
-        ></textarea>
-      </div>
-      <div class="d-flex justify-content-center pb-5">
-        <button type="submit" class="btn btn-dark mb-5">Enviar</button>
-      </div>
+      <form
+        action="https://formsubmit.co/polettiignacio7@gmail.com"
+        method="POST"
+      >
+        <div class="mb-3 pe-5 ps-5">
+          <input
+            name="email"
+            type="email"
+            class="form-control rounded"
+            id="EmailFormControl"
+            placeholder="Email"
+          />
+        </div>
+        <div class="mb-3 pe-5 ps-5">
+          <input
+            name="Asunto"
+            type="text"
+            class="form-control rounded"
+            id="AsuntoFormControl"
+            placeholder="Asunto"
+          />
+        </div>
+        <div class="mb-3 pe-5 ps-5">
+          <textarea
+            name="Comentario"
+            class="form-control rounded"
+            id="TextareaFormControl"
+            rows="5"
+            placeholder="Cuentame que deseas que hagamos..."
+          ></textarea>
+        </div>
+        <div class="d-flex justify-content-center pb-5">
+          <button type="submit" class="btn btn-dark mb-5">Enviar</button>
+        </div>
+      </form>
       <div class="wave-contact-bottom">
         <svg
           data-name="Layer 1"
