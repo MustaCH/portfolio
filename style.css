@@ -69,13 +69,12 @@ section {
 }
 
 #about-content {
-  background: rgb(233, 177, 33);
+  background: rgb(227, 171, 40);
   background: linear-gradient(
     176deg,
-    rgba(233, 177, 33, 1) 52%,
-    rgba(193, 138, 60, 1) 99%
+    rgba(227, 171, 40, 1) 52%,
+    rgba(201, 144, 61, 1) 99%
   );
-  z-index: 3;
 }
 
 /*TECNO*/
@@ -85,6 +84,7 @@ section {
   font-size: 0.7rem;
 }
 
+/*==========================*/
 /*WAVES*/
 
 /*Header*/
@@ -107,7 +107,7 @@ section {
 }
 
 .wave-header-bottom .shape-fill {
-  fill: #e9b121;
+  fill: #e3ab28;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -304,4 +304,36 @@ section {
     width: calc(182% + 1.3px);
     height: 89px;
   }
+}
+
+/*=====================================*/
+
+/*BUBBLES*/
+
+.bubble {
+  border-radius: 50%;
+}
+
+#bubble_header-1 {
+  width: 5rem;
+  height: 5rem;
+  background-color: #c29b40;
+  top: 20%;
+  left: 50%;
+}
+
+#bubble_header-2 {
+  width: 3rem;
+  height: 3rem;
+  background-color: #cb923c;
+  top: 11rem;
+  left: 2rem;
+}
+
+#bubble_header-3 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #f0cf80;
+  top: 2rem;
+  right: 2rem;
 }
