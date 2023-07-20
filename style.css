@@ -314,26 +314,55 @@ section {
   border-radius: 50%;
 }
 
-#bubble_header-1 {
+.bubble-header:nth-child(1) {
   width: 5rem;
   height: 5rem;
   background-color: #c29b40;
-  top: 20%;
-  left: 50%;
+  top: 0.5rem;
+  left: 12rem;
+  animation: bubble-header_1-anim 3s linear infinite;
 }
 
-#bubble_header-2 {
+@keyframes bubble-header_1-anim {
+  50% {
+    top: 1.5rem;
+  }
+}
+
+.bubble-header:nth-child(2) {
   width: 3rem;
   height: 3rem;
   background-color: #cb923c;
   top: 11rem;
   left: 2rem;
+  animation: bubble-header_2-anim 2s linear infinite;
 }
 
-#bubble_header-3 {
+@keyframes bubble-header_2-anim {
+  10% {
+    top: 11.2rem;
+  }
+
+  50% {
+    top: 11.5rem;
+  }
+
+  100% {
+    top: 11rem;
+  }
+}
+
+.bubble-header:nth-child(3) {
   width: 2.5rem;
   height: 2.5rem;
   background-color: #f0cf80;
   top: 2rem;
   right: 2rem;
+  animation: bubble-header_3-anim 4s linear infinite;
+}
+
+@keyframes bubble-header_3-anim {
+  50% {
+    top: 3rem;
+  }
 }
