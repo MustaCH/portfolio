@@ -537,7 +537,7 @@ section {
   height: 3rem;
   background-color: #e3ab28;
   top: 2rem;
-  right: 8rem;
+  right: 5rem;
   overflow-x: hidden;
   z-index: 5;
   animation: bubble-edu_1-anim 11s linear infinite;
@@ -554,7 +554,7 @@ section {
   height: 2rem;
   background-color: #edbc4b;
   top: 2rem;
-  right: 4.5em;
+  right: 2em;
   overflow-x: hidden;
   z-index: 5;
   animation: bubble-edu_2-anim 9s linear infinite;
@@ -571,7 +571,7 @@ section {
   height: 2rem;
   background-color: #cb923c;
   top: 3rem;
-  right: 1rem;
+  right: -1rem;
   overflow-x: hidden;
   z-index: 5;
   animation: bubble-edu_3-anim 10s linear infinite;
@@ -580,5 +580,96 @@ section {
 @keyframes bubble-edu_3-anim {
   50% {
     top: 2rem;
+  }
+}
+
+/*CONTACT*/
+
+/*TOP*/
+
+.bubble-contact-top:nth-child(1) {
+  width: 4rem;
+  height: 4rem;
+  background-color: #e3ab28;
+  top: -1.5rem;
+  left: 2rem;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-contact-top_1-anim 11s linear infinite;
+}
+
+@keyframes bubble-contact-top_1-anim {
+  50% {
+    top: -2rem;
+  }
+}
+
+.bubble-contact-top:nth-child(2) {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #edbc4b;
+  top: -2rem;
+  right: 4.5em;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-contact-top_2-anim 9s linear infinite;
+}
+
+@keyframes bubble-contact-top_2-anim {
+  50% {
+    top: -1.5rem;
+  }
+}
+
+.bubble-contact-top:nth-child(3) {
+  width: 3rem;
+  height: 3rem;
+  background-color: #cb923c;
+  top: -1rem;
+  right: 1rem;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-contact-top_3-anim 10s linear infinite;
+}
+
+@keyframes bubble-contact-top_3-anim {
+  50% {
+    top: -1.5rem;
+  }
+}
+
+/*BOTTOM*/
+
+.bubble-contact-bottom:nth-child(1) {
+  width: 4rem;
+  height: 4rem;
+  background-color: #e3ab28;
+  top: -2rem;
+  right: 8rem;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-contact-bottom_1-anim 11s linear infinite;
+}
+
+@keyframes bubble-contact-bottom_1-anim {
+  50% {
+    top: -2.5rem;
+  }
+}
+
+.bubble-contact-bottom:nth-child(2) {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #edbc4b;
+  top: -2rem;
+  right: 4em;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-contact-bottom_2-anim 9s linear infinite;
+}
+
+@keyframes bubble-contact-bottom_2-anim {
+  50% {
+    top: -1.5rem;
   }
 }
