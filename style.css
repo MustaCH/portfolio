@@ -446,3 +446,86 @@ section {
     top: 20rem;
   }
 }
+
+/*PROYECTS*/
+
+.bubble-proy:nth-child(1) {
+  width: 5rem;
+  height: 5rem;
+  background-color: #e9a43d;
+  top: -3rem;
+  left: -1rem;
+  z-index: 5;
+  animation: bubble-proy_1-anim 10s linear infinite;
+}
+
+@keyframes bubble-proy_1-anim {
+  50% {
+    top: -3.2rem;
+  }
+}
+
+.bubble-proy:nth-child(2) {
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: #f0cf80;
+  top: -0rem;
+  left: 5rem;
+  z-index: 5;
+  animation: bubble-proy_2-anim 8s linear infinite;
+}
+
+@keyframes bubble-proy_2-anim {
+  50% {
+    top: 0.5rem;
+  }
+}
+
+.bubble-proy:nth-child(3) {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f5b82a;
+  top: -1.5rem;
+  right: 1rem;
+  z-index: 5;
+  animation: bubble-proy_3-anim 12s linear infinite;
+}
+
+@keyframes bubble-proy_3-anim {
+  50% {
+    top: -1rem;
+  }
+}
+
+.bubble-proy:nth-child(4) {
+  width: 1rem;
+  height: 1rem;
+  background-color: #cb923c;
+  top: -2rem;
+  left: 5rem;
+  z-index: 5;
+  animation: bubble-proy_4-anim 10s linear infinite;
+}
+
+@keyframes bubble-proy_4-anim {
+  50% {
+    top: -3rem;
+  }
+}
+
+.bubble-proy:nth-child(5) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #f0cf80;
+  top: -3rem;
+  right: 4rem;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-proy_5-anim 11s linear infinite;
+}
+
+@keyframes bubble-proy_5-anim {
+  50% {
+    top: -4rem;
+  }
+}
