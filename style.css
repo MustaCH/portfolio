@@ -529,3 +529,56 @@ section {
     top: -4rem;
   }
 }
+
+/*EDUCATION*/
+
+.bubble-edu:nth-child(1) {
+  width: 3rem;
+  height: 3rem;
+  background-color: #e3ab28;
+  top: 2rem;
+  right: 8rem;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-edu_1-anim 11s linear infinite;
+}
+
+@keyframes bubble-edu_1-anim {
+  50% {
+    top: 1rem;
+  }
+}
+
+.bubble-edu:nth-child(2) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #edbc4b;
+  top: 2rem;
+  right: 4.5em;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-edu_2-anim 9s linear infinite;
+}
+
+@keyframes bubble-edu_2-anim {
+  50% {
+    top: 3rem;
+  }
+}
+
+.bubble-edu:nth-child(3) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #cb923c;
+  top: 3rem;
+  right: 1rem;
+  overflow-x: hidden;
+  z-index: 5;
+  animation: bubble-edu_3-anim 10s linear infinite;
+}
+
+@keyframes bubble-edu_3-anim {
+  50% {
+    top: 2rem;
+  }
+}
