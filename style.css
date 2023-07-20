@@ -310,6 +310,8 @@ section {
 
 /*BUBBLES*/
 
+/*HEADER*/
+
 .bubble {
   border-radius: 50%;
 }
@@ -364,5 +366,83 @@ section {
 @keyframes bubble-header_3-anim {
   50% {
     top: 3rem;
+  }
+}
+
+/*ABOUT*/
+
+.bubble-about:nth-child(1) {
+  width: 8rem;
+  height: 8rem;
+  background-color: #fbc546;
+  top: -1rem;
+  left: 1rem;
+  animation: bubble-about_1-anim 10s linear infinite;
+}
+
+@keyframes bubble-about_1-anim {
+  50% {
+    top: -1.5rem;
+  }
+}
+
+.bubble-about:nth-child(2) {
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: #f0cf80;
+  top: -0.1rem;
+  left: 10rem;
+  animation: bubble-about_2-anim 8s linear infinite;
+}
+
+@keyframes bubble-about_2-anim {
+  50% {
+    top: 1rem;
+  }
+}
+
+.bubble-about:nth-child(3) {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f0cf80;
+  top: 20.5rem;
+  left: 1rem;
+  animation: bubble-about_3-anim 12s linear infinite;
+}
+
+@keyframes bubble-about_3-anim {
+  50% {
+    top: 21rem;
+  }
+}
+
+.bubble-about:nth-child(4) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #f5b82a;
+  top: 22rem;
+  left: 13rem;
+  animation: bubble-about_4-anim 10s linear infinite;
+}
+
+@keyframes bubble-about_4-anim {
+  50% {
+    top: 21rem;
+  }
+}
+
+.bubble-about:nth-child(5) {
+  width: 4rem;
+  height: 4rem;
+  background-color: #edbc4b;
+  top: 19rem;
+  left: 20rem;
+  overflow-x: hidden;
+  animation: bubble-about_5-anim 11s linear infinite;
+}
+
+@keyframes bubble-about_5-anim {
+  50% {
+    top: 20rem;
   }
 }
