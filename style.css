@@ -10,6 +10,10 @@ section {
   position: relative;
 }
 
+h2 {
+  z-index: 6;
+}
+
 #about,
 #proy-content,
 #contact {
@@ -84,8 +88,9 @@ section {
   font-size: 0.7rem;
 }
 
-/*==========================*/
+/*================================*/
 /*WAVES*/
+/*================================*/
 
 /*Header*/
 
@@ -307,8 +312,8 @@ section {
 }
 
 /*=====================================*/
-
 /*BUBBLES*/
+/*=====================================*/
 
 /*HEADER*/
 
@@ -322,7 +327,7 @@ section {
   background-color: #c29b40;
   top: 0.5rem;
   left: 12rem;
-  animation: bubble-header_1-anim 10s linear infinite;
+  animation: bubble-header_1-anim 7s linear infinite;
 }
 
 @keyframes bubble-header_1-anim {
@@ -337,7 +342,7 @@ section {
   background-color: #cb923c;
   top: 11rem;
   left: 2rem;
-  animation: bubble-header_2-anim 8s linear infinite;
+  animation: bubble-header_2-anim 5s linear infinite;
 }
 
 @keyframes bubble-header_2-anim {
@@ -360,7 +365,7 @@ section {
   background-color: #f0cf80;
   top: 2rem;
   right: 2rem;
-  animation: bubble-header_3-anim 12s linear infinite;
+  animation: bubble-header_3-anim 4s linear infinite;
 }
 
 @keyframes bubble-header_3-anim {
