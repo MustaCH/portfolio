@@ -1,3 +1,7 @@
+/*==============================*/
+/*AJUSTES GENERALES*/
+/*==============================*/
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -89,6 +93,136 @@ h2 {
 }
 
 /*================================*/
+/*MEDIA QUERIES*/
+/*================================*/
+@media (max-width: 767px) {
+  #headerImg {
+    width: 75%;
+  }
+
+  #inicio h3 {
+    font-size: 1.3rem;
+  }
+
+  .proyecto img {
+    width: 100%;
+  }
+
+  .proyecto .proy-tecs div img {
+    width: 50%;
+  }
+
+  .proyecto .proy-github-img {
+    width: 15%;
+  }
+
+  #malditohard-img {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1920px) {
+  #inicio h1 {
+    font-size: 6rem;
+  }
+
+  #inicio h3 {
+    font-size: 2.5rem;
+  }
+
+  #header-img-container {
+    padding: 10%;
+    padding-bottom: 6%;
+  }
+
+  #headerImg {
+    width: 35%;
+    top: -125%;
+    left: 65%;
+  }
+
+  #about-content {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-content h2 {
+    width: 60%;
+  }
+
+  #about-content p {
+    width: 60%;
+  }
+
+  #tecno-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+  }
+
+  .tecnos p {
+    font-size: 1rem;
+  }
+
+  #proy h2 {
+    font-size: 3rem;
+  }
+
+  .proyecto {
+    margin-top: 5%;
+  }
+
+  .proyecto img {
+    width: 100%;
+  }
+
+  .proyecto .proy-header {
+    width: 50%;
+  }
+
+  .proy-header h3 {
+    padding-bottom: 3%;
+    font-size: 2rem;
+  }
+
+  .proyecto .proy-info {
+    width: 50%;
+  }
+
+  .proyecto p {
+    font-size: 1.5rem;
+  }
+
+  .proyecto .proy-tecs div img {
+    width: 35%;
+  }
+
+  .proyecto .proy-github-img {
+    width: 5%;
+  }
+
+  #malditohard-img {
+    width: 40%;
+  }
+
+  #edu p {
+    width: 50%;
+    font-size: 1.3rem;
+  }
+
+  #carouselExampleIndicators {
+    width: 40%;
+  }
+
+  #form-contacto {
+    width: 40%;
+  }
+}
+
+/*================================*/
 /*WAVES*/
 /*================================*/
 
@@ -126,6 +260,10 @@ h2 {
   .wave-header-bottom svg {
     width: calc(110% + 1.3px);
     height: 180px;
+  }
+
+  #headerImg {
+    width: 75%;
   }
 }
 

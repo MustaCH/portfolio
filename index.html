@@ -56,9 +56,11 @@
       <div class="bubble bubble-header position-absolute"></div>
     </div>
     <!--INTRO-->
-    <section id="inicio" class="overflow-hidden">
-      <h1 class="display-1 fw-bolder ps-3 mb-0">Ignacio<br />Poletti.</h1>
-      <h3 class="fw-light fs-5 text-warning ps-3 mb-0">
+    <section id="inicio" class="overflow-hidden p-lg-5 pb-lg-0">
+      <h1 class="display-1 fw-bolder ps-3 ps-lg-5 mb-0">
+        Ignacio<br />Poletti.
+      </h1>
+      <h3 class="fw-light text-warning ps-3 ps-lg-5 mb-0">
         Frontend<br />Developer
       </h3>
       <div
@@ -67,7 +69,7 @@
       >
         <img
           id="headerImg"
-          class="rounded-circle w-75"
+          class="rounded-circle"
           src="./assets/img/foto cv.png"
           alt="IgnacioPoletti"
         />
@@ -95,13 +97,17 @@
         <div class="bubble bubble-about position-absolute"></div>
         <div class="bubble bubble-about position-absolute"></div>
       </div>
-      <div id="about-content" class="pt-5 pb-5">
-        <h2 class="fw-bolder display-3 text-end pt-2 pe-4">Quien soy?</h2>
-        <p class="fw-light mb-0 p-4 pb-5">
+      <div id="about-content" class="pt-5 pb-5 p-lg-5">
+        <h2
+          class="fw-bolder display-3 text-end text-lg-start pt-2 pe-4 p-lg-5 pb-lg-3"
+        >
+          Quien soy?
+        </h2>
+        <p class="fw-light mb-0 p-4 pb-5 p-lg-5">
           Soy un desarrollador web y de aplicaciones apasionado de mi
           trabajo.<br />
-          Pasé los ultimos 4 años de mi vida aprendiendo y practicando todo lo
-          que sé sobre programación y los ultimos dos años trabajando como
+          Pasé los ultimos años de mi vida aprendiendo y practicando todo lo que
+          sé sobre programación y los ultimos dos años trabajando como
           programador freelance para varios clientes y actualmente colaborando
           con una empresa de productos digitales.
         </p>
@@ -130,7 +136,7 @@
           id="tecno-row-1"
           class="d-flex flex-row align-items-center justify-content-evenly pt-3"
         >
-          <div id="html" class="d-flex flex-column align-items-center">
+          <div id="html" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/html-logo.png"
@@ -138,7 +144,7 @@
             />
             <p class="pt-1 mb-0">HTML</p>
           </div>
-          <div id="css" class="d-flex flex-column align-items-center">
+          <div id="css" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/css-logo.png"
@@ -146,7 +152,7 @@
             />
             <p class="pt-1 mb-0">CSS</p>
           </div>
-          <div id="js" class="d-flex flex-column align-items-center">
+          <div id="js" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/js-logo.png"
@@ -154,7 +160,7 @@
             />
             <p class="pt-1 mb-0">JavaScript</p>
           </div>
-          <div id="re-js" class="d-flex flex-column align-items-center">
+          <div id="re-js" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/reactjs-logo.png"
@@ -162,7 +168,7 @@
             />
             <p class="pt-1 mb-0">ReactJs</p>
           </div>
-          <div id="re-na" class="d-flex flex-column align-items-center">
+          <div id="re-na" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/reactnat-logo.png"
@@ -175,7 +181,7 @@
           id="tecno-row-2"
           class="d-flex flex-row align-items-center justify-content-evenly pt-3 ps-4 pe-4 pb-5"
         >
-          <div id="node" class="d-flex flex-column align-items-center">
+          <div id="node" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/node-logo.png"
@@ -183,7 +189,7 @@
             />
             <p class="pt-1 mb-0">NodeJS</p>
           </div>
-          <div id="boots" class="d-flex flex-column align-items-center">
+          <div id="boots" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/boots-logo.png"
@@ -191,7 +197,7 @@
             />
             <p class="pt-1 mb-0">Bootstrap</p>
           </div>
-          <div id="sass" class="d-flex flex-column align-items-center">
+          <div id="sass" class="tecnos d-flex flex-column align-items-center">
             <img
               class="w-50"
               src="./assets/img/tecnos/sass-logo.png"
@@ -199,7 +205,10 @@
             />
             <p class="pt-1 mb-0">SASS</p>
           </div>
-          <div id="tailwind" class="d-flex flex-column align-items-center">
+          <div
+            id="tailwind"
+            class="tecnos d-flex flex-column align-items-center"
+          >
             <img
               class="w-50"
               src="./assets/img/tecnos/tailwind-logo.png"
@@ -235,294 +244,290 @@
           </svg>
         </div>
         <div class="pt-5">
-          <div class="pt-5 ps-3 pe-3 d-flex flex-column align-items-center">
-            <h3 class="fw-bolder">JFM Arquitecto</h3>
-            <img
-              class="w-100 rounded"
-              src="./assets/proyects/JFM-Proyect.gif"
-              alt="JFM-Architect"
-            />
-            <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
-              Mi primer proyecto freelance. Hecho en colaboración con un
-              diseñador UX/UI creamos éste sitio para un arquitecto donde podía
-              mostrar sus trabajos y contar un poco sobre su experiencia. El
-              sitio no fue lanzado pero dejo el link de github a su disposición.
-            </p>
-            <div class="d-flex flex-row justify-content-between">
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/html-logo.png"
-                  alt="HTML"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/css-logo.png"
-                  alt="CSS"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/sass-logo.png"
-                  alt="SASS"
-                />
-              </div>
-            </div>
+          <div
+            class="proyecto pt-5 ps-3 pe-3 d-flex flex-column flex-lg-row align-items-center"
+          >
             <div
-              class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5"
+              class="proy-header d-flex flex-column align-items-center align-items-lg-start"
             >
+              <h3 class="fw-bolder">JFM Arquitecto</h3>
               <img
-                class="w-25"
-                src="./assets/img/redes/github-logo-black.png"
-                alt="GitHub"
+                class="rounded"
+                src="./assets/proyects/JFM-Proyect.gif"
+                alt="JFM-Architect"
               />
-              <a
-                class="fw-bold text-black ps-3"
-                href="https://github.com/MustaCH/jfm2"
-                >GitHub</a
+            </div>
+            <div class="proy-info d-lg-flex flex-column">
+              <p class="fw-bold pt-4 ps-4 pe-4 pb-2 p-lg-0 ps-lg-5 pe-lg-5">
+                Mi primer proyecto freelance. Hecho en colaboración con un
+                diseñador UX/UI creamos éste sitio para un arquitecto donde
+                podía mostrar sus trabajos y contar un poco sobre su
+                experiencia. El sitio no fue lanzado pero dejo el link de github
+                a su disposición.
+              </p>
+              <div
+                class="proy-tecs d-flex flex-row justify-content-between justify-content-lg-center"
               >
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/html-logo.png" alt="HTML" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/css-logo.png" alt="CSS" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/sass-logo.png" alt="SASS" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5 pb-lg-0"
+              >
+                <img
+                  class="proy-github-img"
+                  src="./assets/img/redes/github-logo-black.png"
+                  alt="GitHub"
+                />
+                <a
+                  class="fw-bold text-black ps-3"
+                  href="https://github.com/MustaCH/jfm2"
+                  >GitHub</a
+                >
+              </div>
             </div>
           </div>
-          <div class="pt-3 ps-3 pe-3 d-flex flex-column align-items-center">
-            <h3 class="fw-bolder">Encuesta de satisfacción</h3>
-            <img
-              class="w-100 rounded"
-              src="./assets/proyects/SANOFI-QA.gif"
-              alt="SANOFI-QA"
-            />
-            <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
-              Éste proyecto fue hecho en conjunto con la empresa
-              <a class="text-black fw-bolder" href="https://b4code.com/"
-                >B4Code</a
-              >
-              con la que he estado trabajando. Realizado intención de vender el
-              servicio de encuestas de satisfaccion a diferentes clientes. Lo
-              que puedes observar en el repositorio es lo que yo he hecho como
-              base para éste proyecto que fue continuado por otro compañero de
-              la empresa.
-            </p>
-            <div class="d-flex flex-row justify-content-between">
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/html-logo.png"
-                  alt="HTML"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/css-logo.png"
-                  alt="CSS"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/js-logo.png"
-                  alt="JavaScript"
-                />
-              </div>
-            </div>
+          <div
+            class="proyecto pt-5 ps-3 pe-3 d-flex flex-column flex-lg-row-reverse align-items-center"
+          >
             <div
-              class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5"
+              class="proy-header d-flex flex-column align-items-center align-items-lg-end"
             >
+              <h3 class="fw-bolder">Encuesta de satisfacción</h3>
               <img
-                class="w-25"
-                src="./assets/img/redes/github-logo-black.png"
-                alt="GitHub"
+                class="rounded"
+                src="./assets/proyects/SANOFI-QA.gif"
+                alt="SANOFI-QA"
               />
-              <a
-                class="fw-bold text-black ps-3"
-                href="https://github.com/MustaCH/SANOFI-QA-1.2"
-                >GitHub</a
+            </div>
+            <div class="proy-info d-lg-flex flex-column">
+              <p class="fw-bold pt-4 ps-4 pe-4 pb-2 p-lg-0 ps-lg-5 pe-lg-5">
+                Éste proyecto fue hecho en conjunto con la empresa
+                <a class="text-black fw-bolder" href="https://b4code.com/"
+                  >B4Code</a
+                >
+                con la que he estado trabajando. Realizado intención de vender
+                el servicio de encuestas de satisfaccion a diferentes clientes.
+                Lo que puedes observar en el repositorio es lo que yo he hecho
+                como base para éste proyecto que fue continuado por otro
+                compañero de la empresa.
+              </p>
+              <div
+                class="proy-tecs d-flex flex-row justify-content-between justify-content-lg-center"
               >
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="d-flex justify-content-center">
+                    <img src="./assets/img/tecnos/html-logo.png" alt="HTML" />
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <img src="./assets/img/tecnos/css-logo.png" alt="CSS" />
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <img
+                      src="./assets/img/tecnos/js-logo.png"
+                      alt="JavaScript"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5 pt-lg-5"
+              >
+                <img
+                  class="proy-github-img"
+                  src="./assets/img/redes/github-logo-black.png"
+                  alt="GitHub"
+                />
+                <a
+                  class="fw-bold text-black ps-3"
+                  href="https://github.com/MustaCH/SANOFI-QA-1.2"
+                  >GitHub</a
+                >
+              </div>
             </div>
           </div>
-          <div class="pt-3 ps-3 pe-3 d-flex flex-column align-items-center">
-            <h3 class="fw-bolder">AON Implants Workshop</h3>
-            <img
-              class="w-100 rounded"
-              src="./assets/proyects/AON.gif"
-              alt="AON"
-            />
-            <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
-              Otro proyecto más creado en conjunto con
-              <a class="text-black fw-bolder" href="https://b4code.com/"
-                >B4Code</a
-              >
-              en éste caso realizamos una landing page para un evento sobre
-              protesis odontológicas para la empresa
-              <a
-                class="text-black text-decoration-none fw-bolder"
-                href="https://aonimplants.us/"
-                >AON</a
-              >
-              así como también una página de registro para el propio evento.
-            </p>
-            <div class="d-flex flex-row justify-content-between">
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/html-logo.png"
-                  alt="HTML"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/css-logo.png"
-                  alt="CSS"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/boots-logo.png"
-                  alt="JavaScript"
-                />
-              </div>
-            </div>
+          <div
+            class="proyecto pt-5 ps-3 pe-3 d-flex flex-column flex-lg-row align-items-center"
+          >
             <div
-              class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5"
+              class="proy-header d-flex flex-column align-items-center align-items-lg-start"
             >
-              <img
-                class="w-25"
-                src="./assets/img/redes/github-logo-black.png"
-                alt="GitHub"
-              />
-              <a
-                class="fw-bold text-black ps-3"
-                href="https://github.com/MustaCH/AON-Implants-Symposium"
-                >GitHub</a
+              <h3 class="fw-bolder">AON Implants Workshop</h3>
+              <img class="rounded" src="./assets/proyects/AON.gif" alt="AON" />
+            </div>
+            <div class="proy-info d-lg-flex flex-column">
+              <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
+                Otro proyecto más creado en conjunto con
+                <a class="text-black fw-bolder" href="https://b4code.com/"
+                  >B4Code</a
+                >
+                en éste caso realizamos una landing page para un evento sobre
+                protesis odontológicas para la empresa
+                <a
+                  class="text-black text-decoration-none fw-bolder"
+                  href="https://aonimplants.us/"
+                  >AON</a
+                >
+                así como también una página de registro para el propio evento.
+              </p>
+              <div
+                class="proy-tecs d-flex flex-row justify-content-between justify-content-lg-center"
               >
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/html-logo.png" alt="HTML" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/css-logo.png" alt="CSS" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img
+                    src="./assets/img/tecnos/boots-logo.png"
+                    alt="JavaScript"
+                  />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5 pb-lg-0 pt-lg-5"
+              >
+                <img
+                  class="proy-github-img"
+                  src="./assets/img/redes/github-logo-black.png"
+                  alt="GitHub"
+                />
+                <a
+                  class="fw-bold text-black ps-3"
+                  href="https://github.com/MustaCH/AON-Implants-Symposium"
+                  >GitHub</a
+                >
+              </div>
             </div>
           </div>
-          <div class="pt-3 ps-3 pe-3 d-flex flex-column align-items-center">
-            <h3 class="fw-bolder">GAIA - Centro Holístico</h3>
-            <img
-              class="w-100 rounded"
-              src="./assets/proyects/GAIA.gif"
-              alt="GaiaHolistico"
-            />
-            <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
-              Éste fue otro de mis primeros proyectos como freelance, tambien en
-              conjunto con otro diseñador UX/UI creamos éste e-commerce de un
-              centro holístico, muy sencillo, pero efectivo.
-            </p>
-            <div class="d-flex flex-row justify-content-between">
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/reactjs-logo.png"
-                  alt="ReactJS"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/html-logo.png"
-                  alt="HTML"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/css-logo.png"
-                  alt="CSS"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/js-logo.png"
-                  alt="JavaScript"
-                />
-              </div>
-            </div>
+          <div
+            class="proyecto pt-5 ps-3 pe-3 d-flex flex-column flex-lg-row-reverse align-items-center"
+          >
             <div
-              class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5"
+              class="proy-header d-flex flex-column align-items-center align-items-lg-end"
             >
+              <h3 class="fw-bolder">GAIA - Centro Holístico</h3>
               <img
-                class="w-25"
-                src="./assets/img/redes/github-logo-black.png"
-                alt="GitHub"
+                class="rounded"
+                src="./assets/proyects/GAIA.gif"
+                alt="GaiaHolistico"
               />
-              <a
-                class="fw-bold text-black ps-3"
-                href="https://github.com/MustaCH/gaia--garciaPoletti--BTx"
-                >GitHub</a
+            </div>
+            <div class="proy-info d-lg-flex flex-column">
+              <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
+                Éste fue otro de mis primeros proyectos como freelance, tambien
+                en conjunto con otro diseñador UX/UI creamos éste e-commerce de
+                un centro holístico, muy sencillo, pero efectivo.
+              </p>
+              <div
+                class="proy-tecs d-flex flex-row justify-content-between justify-content-lg-center"
               >
+                <div class="d-flex justify-content-center">
+                  <img
+                    src="./assets/img/tecnos/reactjs-logo.png"
+                    alt="ReactJS"
+                  />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/html-logo.png" alt="HTML" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/css-logo.png" alt="CSS" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/js-logo.png" alt="JavaScript" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5 pb-lg-0 pt-lg-5"
+              >
+                <img
+                  class="proy-github-img"
+                  src="./assets/img/redes/github-logo-black.png"
+                  alt="GitHub"
+                />
+                <a
+                  class="fw-bold text-black ps-3"
+                  href="https://github.com/MustaCH/gaia--garciaPoletti--BTx"
+                  >GitHub</a
+                >
+              </div>
             </div>
           </div>
-          <div class="p-3 pb-5 d-flex flex-column align-items-center">
-            <h3 class="fw-bolder">App e-commerce</h3>
-            <img
-              class="w-50 rounded"
-              src="./assets/proyects/TiendaApp.gif"
-              alt="MalditoHard Store"
-            />
-            <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
-              Éste proyecto fue diseñado por mi cuenta como prototipo para la
-              empresa
-              <a
-                class="text-black fw-bolder"
-                href="https://www.malditohard.com.ar/"
-                >MalditoHard</a
-              >
-              . Consiste en una app e-commerce crea un carrito con los productos
-              seleccionados por el usuario y crea ordenes de compra almacenando
-              las mismas en <strong class="text-black">Firebase</strong>. La app
-              fue desarrollada con React Native para su compatibilidad con
-              <strong class="text-black">Android</strong> e
-              <strong class="text-black">iOS</strong>.
-            </p>
-            <div class="d-flex flex-row justify-content-between">
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/reactnat-logo.png"
-                  alt="HTML"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/css-logo.png"
-                  alt="CSS"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/js-logo.png"
-                  alt="JavaScript"
-                />
-              </div>
-              <div class="d-flex justify-content-center">
-                <img
-                  class="w-50"
-                  src="./assets/img/tecnos/firebase.png"
-                  alt="JavaScript"
-                />
-              </div>
-            </div>
+          <div
+            class="proyecto pt-5 ps-3 pe-3 pb-5 d-flex flex-column flex-lg-row align-items-center"
+          >
             <div
-              class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5"
+              class="proy-header d-flex flex-column align-items-center align-items-lg-end pb-lg-5 pe-lg-5"
             >
+              <h3 class="fw-bolder pe-lg-5">App e-commerce</h3>
               <img
-                class="w-25 rounded-3"
-                src="./assets/img/redes/github-logo-black.png"
-                alt="GitHub"
+                id="malditohard-img"
+                class="rounded pe-lg-5"
+                src="./assets/proyects/TiendaApp.gif"
+                alt="MalditoHard Store"
               />
-              <a
-                class="fw-bold text-black ps-3"
-                href="https://github.com/MustaCH/QRS808"
-                >GitHub</a
+            </div>
+            <div class="proy-info d-lg-flex flex-column">
+              <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
+                Éste proyecto fue diseñado por mi cuenta como prototipo para la
+                empresa
+                <a
+                  class="text-black fw-bolder"
+                  href="https://www.malditohard.com.ar/"
+                  >MalditoHard</a
+                >
+                . Consiste en una app e-commerce crea un carrito con los
+                productos seleccionados por el usuario y crea ordenes de compra
+                almacenando las mismas en
+                <strong class="text-black">Firebase</strong>. La app fue
+                desarrollada con React Native para su compatibilidad con
+                <strong class="text-black">Android</strong> e
+                <strong class="text-black">iOS</strong>.
+              </p>
+              <div
+                class="proy-tecs d-flex flex-row justify-content-between justify-content-lg-center"
               >
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/reactnat-logo.png" alt="HTML" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/css-logo.png" alt="CSS" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img src="./assets/img/tecnos/js-logo.png" alt="JavaScript" />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img
+                    src="./assets/img/tecnos/firebase.png"
+                    alt="JavaScript"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="d-flex flex-row align-items-center justify-content-center pt-3 pb-5 pt-lg-5"
+              >
+                <img
+                  class="proy-github-img"
+                  src="./assets/img/redes/github-logo-black.png"
+                  alt="GitHub"
+                />
+                <a
+                  class="fw-bold text-black ps-3"
+                  href="https://github.com/MustaCH/QRS808"
+                  >GitHub</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -549,94 +554,98 @@
           <div class="bubble bubble-edu position-absolute"></div>
           <div class="bubble bubble-edu position-absolute"></div>
         </div>
-        <h2 class="text-start display-4 fw-bolder pt-5 ps-3">Educación</h2>
-        <p class="text-start ps-3">
-          La mayoría de mis conocimientos los he obtenido aprendiendo de forma
-          autodidacta y los he solidificado gracias a <a>CoderHouse</a>. Aquí
-          puedes ver mis certificados:
-        </p>
+        <div class="ps-lg-5">
+          <h2 class="text-start display-4 fw-bolder pt-5 ps-3">Educación</h2>
+          <p class="text-start ps-3">
+            La mayoría de mis conocimientos los he obtenido aprendiendo de forma
+            autodidacta y los he solidificado gracias a <a>CoderHouse</a>. Aquí
+            puedes ver mis certificados:
+          </p>
+        </div>
       </div>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide pb-5"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="./assets/img/titulos/titulo-carrera.png"
-              class="d-block w-100"
-              alt="App Developer Carreer"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./assets/img/titulos/certificado-react.png"
-              class="d-block w-100"
-              alt="ReactJS Developer"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./assets/img/titulos/cerificado-js.png"
-              class="d-block w-100"
-              alt="JavaScript Developer"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./assets/img/titulos/certificado-web.png"
-              class="d-block w-100"
-              alt="Web Developer"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
+      <div class="d-lg-flex justify-content-lg-center">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide pb-5"
+          data-bs-ride="carousel"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/titulos/titulo-carrera.png"
+                class="d-block w-100"
+                alt="App Developer Carreer"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/titulos/certificado-react.png"
+                class="d-block w-100"
+                alt="ReactJS Developer"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/titulos/cerificado-js.png"
+                class="d-block w-100"
+                alt="JavaScript Developer"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/titulos/certificado-web.png"
+                class="d-block w-100"
+                alt="Web Developer"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
       </div>
     </section>
     <!--Contacto-->
@@ -659,45 +668,50 @@
         <div class="bubble bubble-contact-top position-absolute"></div>
         <div class="bubble bubble-contact-top position-absolute"></div>
       </div>
-      <div class="text-end pe-5 pt-5">
+      <div
+        class="text-end pe-5 pt-5 d-lg-flex flex-lg-column align-items-lg-center"
+      >
         <h2 class="display-4 fw-bold mb-0 mt-5">Contactame!</h2>
         <p class="fs-4 fw-light">Trabajemos juntos</p>
       </div>
-      <form
-        action="https://formsubmit.co/polettiignacio7@gmail.com"
-        method="POST"
-      >
-        <div class="mb-3 pe-5 ps-5">
-          <input
-            name="email"
-            type="email"
-            class="form-control rounded"
-            id="EmailFormControl"
-            placeholder="Email"
-          />
-        </div>
-        <div class="mb-3 pe-5 ps-5">
-          <input
-            name="Asunto"
-            type="text"
-            class="form-control rounded"
-            id="AsuntoFormControl"
-            placeholder="Asunto"
-          />
-        </div>
-        <div class="mb-3 pe-5 ps-5">
-          <textarea
-            name="Comentario"
-            class="form-control rounded"
-            id="TextareaFormControl"
-            rows="5"
-            placeholder="Cuentame que deseas que hagamos..."
-          ></textarea>
-        </div>
-        <div class="d-flex justify-content-center pb-5">
-          <button type="submit" class="btn btn-dark mb-5">Enviar</button>
-        </div>
-      </form>
+      <div class="d-lg-flex flex-lg-column align-items-lg-center">
+        <form
+          id="form-contacto"
+          action="https://formsubmit.co/polettiignacio7@gmail.com"
+          method="POST"
+        >
+          <div class="mb-3 pe-5 ps-5">
+            <input
+              name="email"
+              type="email"
+              class="form-control rounded"
+              id="EmailFormControl"
+              placeholder="Email"
+            />
+          </div>
+          <div class="mb-3 pe-5 ps-5">
+            <input
+              name="Asunto"
+              type="text"
+              class="form-control rounded"
+              id="AsuntoFormControl"
+              placeholder="Asunto"
+            />
+          </div>
+          <div class="mb-3 pe-5 ps-5">
+            <textarea
+              name="Comentario"
+              class="form-control rounded"
+              id="TextareaFormControl"
+              rows="5"
+              placeholder="Cuentame que deseas que hagamos..."
+            ></textarea>
+          </div>
+          <div class="d-flex justify-content-center pb-5">
+            <button type="submit" class="btn btn-dark mb-5">Enviar</button>
+          </div>
+        </form>
+      </div>
       <div class="wave-contact-bottom">
         <svg
           data-name="Layer 1"
