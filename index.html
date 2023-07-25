@@ -26,27 +26,38 @@
     </div>
     <!--HEADER-->
     <header class="d-flex flex-row justify-content-between">
-      <div class="d-flex flex-row ps-4 mt-4 pb-3 justify-content-evenly w-25">
-        <div class="form-check">
-          <input
-            class="form-check-input display-6"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault1"
-            checked
+      <div
+        id="flags"
+        class="d-flex flex-row ps-4 mt-4 pb-3 justify-content-start"
+      >
+        <div
+          class="flag-container d-flex justify-content-center"
+          data-language="es"
+        >
+          <img
+            class="flag p-2 w-75"
+            src="./assets/img/idiomas/spain.png"
+            alt="es"
           />
         </div>
-        <div class="form-check">
-          <input
-            class="form-check-input display-6"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault2"
+        <div
+          class="flag-container d-flex justify-content-center"
+          data-language="en"
+        >
+          <img
+            class="flag p-2 w-75"
+            src="./assets/img/idiomas/usa.png"
+            alt="en"
           />
         </div>
       </div>
       <a href="#contact">
-        <button type="button" class="btn btn-warning fw-bold text-white m-4">
+        <button
+          data-section="header"
+          data-value="contact-btn"
+          type="button"
+          class="btn btn-warning fw-bold text-white m-4"
+        >
           Contactame!
         </button></a
       >
@@ -110,6 +121,8 @@
       </div>
       <div id="about-content" class="pt-5 pb-5 pb-md-5 p-lg-3">
         <h2
+          data-section="about"
+          data-value="about-title"
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-anchor-placement="top-bottom"
@@ -118,6 +131,8 @@
           Quien soy?
         </h2>
         <p
+          data-section="about"
+          data-value="about-description"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-anchor-placement="top-bottom"
@@ -148,7 +163,13 @@
     <!--Tecnologías-->
     <section id="tecno">
       <div id="tecno-title-container" class="pt-5">
-        <h2 class="text-center fs-1 fw-bolder pt-5">Tecnologías que domino</h2>
+        <h2
+          data-section="tecno"
+          data-value="tecno-title"
+          class="text-center fs-1 fw-bolder pt-5"
+        >
+          Tecnologías que domino
+        </h2>
       </div>
       <div id="tecno-content p-lg-5">
         <div
@@ -282,7 +303,13 @@
     </section>
     <!--Proyectos-->
     <section id="proy">
-      <h2 class="fw-bolder text-center text-uppercase">Proyectos</h2>
+      <h2
+        data-section="proy"
+        data-value="proy-title"
+        class="fw-bolder text-center text-uppercase"
+      >
+        Proyectos
+      </h2>
       <div id="bubbles_proy" class="position-relative">
         <div class="bubble bubble-proy position-absolute"></div>
         <div class="bubble bubble-proy position-absolute"></div>
@@ -313,7 +340,13 @@
             <div
               class="proy-header d-flex flex-column align-items-center align-items-lg-start"
             >
-              <h3 class="fw-bolder">JFM Arquitecto</h3>
+              <h3
+                data-section="first-proy"
+                data-value="first-proy-title"
+                class="fw-bolder"
+              >
+                JFM Arquitecto
+              </h3>
               <img
                 class="rounded"
                 src="./assets/proyects/JFM-Proyect.gif"
@@ -321,7 +354,11 @@
               />
             </div>
             <div class="proy-info d-lg-flex flex-column">
-              <p class="fw-bold pt-4 ps-4 pe-4 pb-2 p-lg-0 ps-lg-5 pe-lg-5">
+              <p
+                data-section="first-proy"
+                data-value="first-proy-description"
+                class="fw-bold pt-4 ps-4 pe-4 pb-2 p-lg-0 ps-lg-5 pe-lg-5"
+              >
                 Mi primer proyecto freelance. Hecho en colaboración con un
                 diseñador UX/UI creamos éste sitio para un arquitecto donde
                 podía mostrar sus trabajos y contar un poco sobre su
@@ -365,7 +402,13 @@
             <div
               class="proy-header d-flex flex-column align-items-center align-items-lg-end"
             >
-              <h3 class="fw-bolder">Encuesta de satisfacción</h3>
+              <h3
+                data-section="second-proy"
+                data-value="second-proy-title"
+                class="fw-bolder"
+              >
+                Encuesta de satisfacción
+              </h3>
               <img
                 class="rounded"
                 src="./assets/proyects/SANOFI-QA.gif"
@@ -373,7 +416,11 @@
               />
             </div>
             <div class="proy-info d-lg-flex flex-column">
-              <p class="fw-bold pt-4 ps-4 pe-4 pb-2 p-lg-0 ps-lg-5 pe-lg-5">
+              <p
+                data-section="second-proy"
+                data-value="second-proy-description"
+                class="fw-bold pt-4 ps-4 pe-4 pb-2 p-lg-0 ps-lg-5 pe-lg-5"
+              >
                 Éste proyecto fue hecho en conjunto con la empresa
                 <a class="text-black fw-bolder" href="https://b4code.com/"
                   >B4Code</a
@@ -432,11 +479,21 @@
             <div
               class="proy-header d-flex flex-column align-items-center align-items-lg-start"
             >
-              <h3 class="fw-bolder">AON Implants Workshop</h3>
+              <h3
+                data-section="third-proy"
+                data-value="third-proy-title"
+                class="fw-bolder"
+              >
+                AON Implants Workshop
+              </h3>
               <img class="rounded" src="./assets/proyects/AON.gif" alt="AON" />
             </div>
             <div class="proy-info d-lg-flex flex-column">
-              <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
+              <p
+                data-section="third-proy"
+                data-value="third-proy-description"
+                class="fw-bold pt-4 ps-4 pe-4 pb-2"
+              >
                 Otro proyecto más creado en conjunto con
                 <a class="text-black fw-bolder" href="https://b4code.com/"
                   >B4Code</a
@@ -490,7 +547,13 @@
             <div
               class="proy-header d-flex flex-column align-items-center align-items-lg-end"
             >
-              <h3 class="fw-bolder">GAIA - Centro Holístico</h3>
+              <h3
+                data-section="fourth-proy"
+                data-value="fourth-proy-title"
+                class="fw-bolder"
+              >
+                GAIA - Centro Holístico
+              </h3>
               <img
                 class="rounded"
                 src="./assets/proyects/GAIA.gif"
@@ -498,7 +561,11 @@
               />
             </div>
             <div class="proy-info d-lg-flex flex-column">
-              <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
+              <p
+                data-section="fourth-proy"
+                data-value="fourth-proy-description"
+                class="fw-bold pt-4 ps-4 pe-4 pb-2"
+              >
                 Éste fue otro de mis primeros proyectos como freelance, tambien
                 en conjunto con otro diseñador UX/UI creamos éste e-commerce de
                 un centro holístico, muy sencillo, pero efectivo.
@@ -546,7 +613,13 @@
             <div
               class="proy-header d-flex flex-column align-items-center align-items-lg-end pb-lg-5 pe-lg-5"
             >
-              <h3 class="fw-bolder pe-lg-5">App e-commerce</h3>
+              <h3
+                data-section="fifth-proy"
+                data-value="fifth-proy-title"
+                class="fw-bolder pe-lg-5"
+              >
+                App e-commerce
+              </h3>
               <img
                 id="malditohard-img"
                 class="rounded pe-lg-5"
@@ -555,7 +628,11 @@
               />
             </div>
             <div class="proy-info d-lg-flex flex-column">
-              <p class="fw-bold pt-4 ps-4 pe-4 pb-2">
+              <p
+                data-section="fifth-proy"
+                data-value="fifth-proy-description"
+                class="fw-bold pt-4 ps-4 pe-4 pb-2"
+              >
                 Éste proyecto fue diseñado por mi cuenta como prototipo para la
                 empresa
                 <a
@@ -632,8 +709,18 @@
           <div class="bubble bubble-edu position-absolute"></div>
         </div>
         <div data-aos="fade-up" data-aos-duration="2000" class="ps-lg-5">
-          <h2 class="text-start display-4 fw-bolder pt-5 ps-3">Educación</h2>
-          <p class="text-start ps-3">
+          <h2
+            data-section="edu"
+            data-value="edu-title"
+            class="text-start display-4 fw-bolder pt-5 ps-3"
+          >
+            Educación
+          </h2>
+          <p
+            data-section="edu"
+            data-value="edu-description"
+            class="text-start ps-3"
+          >
             La mayoría de mis conocimientos los he obtenido aprendiendo de forma
             autodidacta y los he solidificado gracias a <a>CoderHouse</a>. Aquí
             puedes ver mis certificados:
@@ -752,8 +839,20 @@
       <div
         class="text-end pe-5 pt-5 d-lg-flex flex-lg-column align-items-lg-center"
       >
-        <h2 class="display-4 fw-bold mb-0 mt-5">Contactame!</h2>
-        <p class="fs-4 fw-light">Trabajemos juntos</p>
+        <h2
+          data-section="contact"
+          data-value="contact-title"
+          class="display-4 fw-bold mb-0 mt-5"
+        >
+          Contactame!
+        </h2>
+        <p
+          data-section="contact"
+          data-value="contact-description"
+          class="fs-4 fw-light"
+        >
+          Trabajemos juntos
+        </p>
       </div>
       <div class="d-lg-flex flex-lg-column align-items-lg-center">
         <form
@@ -763,20 +862,22 @@
         >
           <div class="mb-3 pe-5 ps-5">
             <input
+              id="email-input"
               name="email"
               type="email"
               class="form-control rounded"
               id="EmailFormControl"
-              placeholder="Email"
+              data-placeholder="placerholder-email"
             />
           </div>
           <div class="mb-3 pe-5 ps-5">
             <input
+              id="asunto-input"
               name="Asunto"
               type="text"
               class="form-control rounded"
               id="AsuntoFormControl"
-              placeholder="Asunto"
+              data-placeholder="placerholder-asunto"
             />
           </div>
           <div class="mb-3 pe-5 ps-5">
@@ -785,7 +886,7 @@
               class="form-control rounded"
               id="TextareaFormControl"
               rows="5"
-              placeholder="Cuentame que deseas que hagamos..."
+              data-placeholder="placerholder-comentario"
             ></textarea>
           </div>
           <div class="d-flex justify-content-center pb-5">
@@ -845,14 +946,23 @@
     </div>
     <div class="d-flex justify-content-center pb-5">
       <a download="IgnacioGarcía-CV" href="./assets/cv/IgnacioGarcía-CV-ENG.pdf"
-        ><button class="btn btn-warning text-white fw-bold" type="download">
+        ><button
+          data-section="redes"
+          data-value="btn-cv-text"
+          class="btn btn-warning text-white fw-bold"
+          type="download"
+        >
           Descarga mi cv
         </button></a
       >
     </div>
     <!--Footer-->
     <footer class="d-flex flex-column justify-content-center pb-5">
-      <p class="text-center fs-6">
+      <p
+        data-section="footer"
+        data-value="footer-title"
+        class="text-center fs-6"
+      >
         Ésta página fue desarrollada y diseñada con:
       </p>
       <div
@@ -906,12 +1016,15 @@
           alt="GitHub"
         />
         <a
+          data-section="footer"
+          data-value="footer-github-link"
           class="fw-bold text-white ps-3"
           href="https://github.com/MustaCH/portfolio"
           >Repositorio de éste proyecto</a
         >
       </div>
     </footer>
+    <script src="./app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();

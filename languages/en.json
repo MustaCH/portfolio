@@ -1,0 +1,55 @@
+{
+  "header": {
+    "contact-btn": "Contact me!"
+  },
+  "about": {
+    "about-title": "Who am I?",
+    "about-description": "I am a web and application developer passionate about my work.<br> I spent the last years of my life learning and practicing everything I know about programming and the last two years working as a freelance programmer for several clients and currently collaborating with a digital products company."
+  },
+  "tecno": {
+    "tecno-title": "Technologies I master"
+  },
+  "proy": {
+    "proy-title": "Projects"
+  },
+
+  "first-proy": {
+    "first-proy-title": "JFM Architect",
+    "first-proy-description": "My first freelance project. Done in collaboration with a UX/UI designer we created this site for an architect where he could show his work and tell a little about his experience. The site was not released but I leave the github link at your disposal."
+  },
+  "second-proy": {
+    "second-proy-title": "Satisfaction survey",
+    "second-proy-description": "This project was done in conjunction with the company <a class='text-black fw-bolder' href='https://b4code.com/'>B4Code</a> with which I have been working. Realized intention to sell the satisfaction survey service to different customers. What you can see in the repository is what I have done as a basis for this project that was continued by another colleague of the company."
+  },
+  "third-proy": {
+    "third-proy-title": "AON Implants Workshop",
+    "third-proy-description": "Another project created together with <a class='text-black fw-bolder' href='https://b4code.com/'>B4Code</a> in this case we made a landing page for an event about dental prosthesis for the company <a class='text-black text-decoration-none fw-bolder' href='https://aonimplants.us/'>AON</a> as well as a registration page for the event itself."
+  },
+  "fourth-proy": {
+    "fourth-proy-title": "GAIA - Holistic Center",
+    "fourth-proy-description": "This was another one of my first freelance projects, also together with another UX/UI designer we created this e-commerce of a holistic center, very simple, but effective."
+  },
+  "fifth-proy": {
+    "fifth-proy-title": "App e-commerce",
+    "fifth-proy-description": "This project was designed on my own as a prototype for the company <a class='text-black fw-bolder'href='https://www.malditohard.com.ar/'>MalditoHard</a>. It consists of an e-commerce app that creates a shopping cart with the products selected by the user and creates purchase orders storing them at <strong class='text-black'>Firebase</strong>. The app was developed with React Native for its compatibility with <strong class='text-black'>Android</strong> and <strong class='text-black'>iOS</strong>."
+  },
+  "edu": {
+    "edu-title": "Education",
+    "edu-description": "Most of my knowledge I have obtained by self-taught learning and I have solidified it thanks to <a>CoderHouse</a>. Here you can see my certificates:"
+  },
+  "contact": {
+    "contact-title": "Contact me!",
+    "contact-description": "Let's work together",
+    "placerholder-email": "Email",
+    "placerholder-asunto": "Subject",
+    "placerholder-comentario": "Tell me what you would like us to do...",
+    "btn-enviar": "Send"
+  },
+  "redes": {
+    "btn-cv-text": "Download my resume"
+  },
+  "footer": {
+    "footer-title": "This page was developed and designed with:",
+    "footer-github-link": "Repository for this project"
+  }
+}

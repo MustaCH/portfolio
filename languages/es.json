@@ -1,0 +1,54 @@
+{
+  "header": {
+    "contact-btn": "Contactame!"
+  },
+  "about": {
+    "about-title": "Quien soy?",
+    "about-description": "Soy un desarrollador web y de aplicaciones apasionado de mi trabajo.<br> Pasé los ultimos años de mi vida aprendiendo y practicando todo lo que sé sobre programación y los ultimos dos años trabajando como programador freelance para varios clientes y actualmente colaborando con una empresa de productos digitales."
+  },
+  "tecno": {
+    "tecno-title": "Tecnologías que domino"
+  },
+  "proy": {
+    "proy-title": "Proyectos"
+  },
+  "first-proy": {
+    "first-proy-title": "JFM Arquitecto",
+    "first-proy-description": "Mi primer proyecto freelance. Hecho en colaboración con un diseñador UX/UI creamos éste sitio para un arquitecto donde podía mostrar sus trabajos y contar un poco sobre su experiencia. El sitio no fue lanzado pero dejo el link de github a su disposición."
+  },
+  "second-proy": {
+    "second-proy-title": "Encuesta de satisfacción",
+    "second-proy-description": "Éste proyecto fue hecho en conjunto con la empresa <a class='text-black fw-bolder' href='https://b4code.com/'>B4Code</a> con la que he estado trabajando. Realizado intención de vender el servicio de encuestas de satisfaccion a diferentes clientes. Lo que puedes observar en el repositorio es lo que yo he hecho como base para éste proyecto que fue continuado por otro compañero de la empresa."
+  },
+  "third-proy": {
+    "third-proy-title": "AON Implants Workshop",
+    "third-proy-description": "Otro proyecto más creado en conjunto con <a class='text-black fw-bolder' href='https://b4code.com/'>B4Code</a> en éste caso realizamos una landing page para un evento sobre protesis odontológicas para la empresa <a class='text-black text-decoration-none fw-bolder' href='https://aonimplants.us/'>AON</a> así como también una página de registro para el propio evento."
+  },
+  "fourth-proy": {
+    "fourth-proy-title": "GAIA - Centro Holístico",
+    "fourth-proy-description": "Éste fue otro de mis primeros proyectos como freelance, tambien en conjunto con otro diseñador UX/UI creamos éste e-commerce de un centro holístico, muy sencillo, pero efectivo."
+  },
+  "fifth-proy": {
+    "fifth-proy-title": "App e-commerce",
+    "fifth-proy-description": "Éste proyecto fue diseñado por mi cuenta como prototipo para la empresa <a class='text-black fw-bolder'href='https://www.malditohard.com.ar/'>MalditoHard</a>. Consiste en una app e-commerce crea un carrito con los productos seleccionados por el usuario y crea ordenes de compra almacenando las mismas en <strong class='text-black'>Firebase</strong>. La app fue desarrollada con React Native para su compatibilidad con <strong class='text-black'>Android</strong> e <strong class='text-black'>iOS</strong>."
+  },
+  "edu": {
+    "edu-title": "Educación",
+    "edu-description": "La mayoría de mis conocimientos los he obtenido aprendiendo de forma autodidacta y los he solidificado gracias a <a>CoderHouse</a>. Aquí puedes ver mis certificados:"
+  },
+  "contact": {
+    "contact-title": "Contactame!",
+    "contact-description": "Trabajemos juntos",
+    "placerholder-email": "Email",
+    "placerholder-asunto": "Asunto",
+    "placerholder-comentario": "Cuentame que deseas que hagamos...",
+    "btn-enviar": "Enviar"
+  },
+  "redes": {
+    "btn-cv-text": "Descarga mi cv"
+  },
+  "footer": {
+    "footer-title": "Ésta página fue desarrollada y diseñada con:",
+    "footer-github-link": "Repositorio de éste proyecto"
+  }
+}

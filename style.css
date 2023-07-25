@@ -29,8 +29,8 @@ h2 {
   );
 }
 
-.unselected {
-  opacity: 25%;
+.flag-container {
+  cursor: pointer;
 }
 
 #flexRadioDefault1 {
