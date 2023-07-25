@@ -1,6 +1,9 @@
 /*==============================*/
 /*AJUSTES GENERALES*/
 /*==============================*/
+:root {
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
