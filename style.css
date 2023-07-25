@@ -57,6 +57,18 @@ h2 {
   opacity: 100%;
 }
 
+.grow-hover {
+  transition: linear all 0.3s;
+}
+
+.grow-hover:hover {
+  -webkit-transform: scale(1.2) rotate(360deg) translate(0px, -1px);
+  -moz-transform: scale(1.2) rotate(360deg) translate(0px, -1px);
+  -ms-transform: scale(1.2) rotate(360deg) translate(0px, -1px);
+  -o-transform: scale(1.2) rotate(360deg) translate(0px, -1px);
+  transform: scale(1.2) rotate(360deg) translate(0px, -1px);
+}
+
 /*HEADER*/
 
 #header-img-container {
